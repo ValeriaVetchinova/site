@@ -18,12 +18,10 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthorization();
-
-app.MapControllers();
-
 app.MapRazorPages();
 
 app.UseAuthentication();
+
+app.UseAuthorization();
 
 app.Run();

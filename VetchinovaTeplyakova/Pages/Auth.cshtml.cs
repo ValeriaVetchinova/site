@@ -7,7 +7,7 @@ using VetchinovaTeplyakova.Models;
 
 namespace VetchinovaTeplyakova.Pages
 {
-    public class Index1Model : PageModel
+    public class Index1Model : BasePagesModel
     {
         public void OnGet()
         {
